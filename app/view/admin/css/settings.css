@@ -1,0 +1,285 @@
+/* General */
+
+.column-1-ai1ec {
+	float: left;
+	width: 54%;
+}
+.column-2-ai1ec {
+	float: right;
+	width: 45%;
+}
+.column-3-ai1ec {
+	float: left;
+	width: 100%;
+}
+
+#ai1ec-general-settings label,
+#ai1ec-plugins-settings label {
+	float: left;
+	clear: left;
+	margin: 0.25em 0;
+}
+#ai1ec-general-settings label.textinput,
+#ai1ec-plugins-settings label.textinput {
+	width: 230px;
+}
+#ai1ec-general-settings h2,
+#ai1ec-plugins-settings h2 {
+	margin: 5px 0;
+	padding: 0;
+}
+
+.timely p.submit {
+	padding: 0;
+}
+#ai1ec_save_settings {
+	clear: left;
+	display: block;
+}
+
+.tab-content.ai1ec-boxed-tabs {
+	background: #fff;
+	border: solid #ddd;
+	border-width: 0 1px 1px;
+	padding: 8px 10px;
+}
+
+/* Support box */
+
+.ai1ec-support-placeholder {
+	text-align: center;
+	margin: 20px 0;
+}
+#ai1ec-support {
+	background: #f9f9f9;
+	min-width: 350px;
+}
+#ai1ec-support div.inside {
+  margin: 0;
+  padding: 6px 12px 8px;
+}
+#ai1ec-support h2 {
+  font-size: 19px;
+  line-height: 28px;
+  margin: 10px 0;
+  padding: 0;
+}
+#ai1ec-support .timely-logo a {
+	background: url(../img/timely-logo.png) no-repeat center center;
+	display: block;
+	height: 140px;
+}
+#ai1ec-support .timely-intro {
+	text-align: center;
+}
+#ai1ec-support .ai1ec-follow-fan {
+  text-align: center;
+}
+#ai1ec-support .ai1ec-facebook-like-top {
+  display: inline-block;
+  vertical-align: top;
+}
+#ai1ec-support a.btn,
+#ai1ec-support a.btn:hover {
+  text-decoration: none;
+}
+#ai1ec-support .ai1ec-download .ai1ec-download-btn {
+	display: block;
+	font-size: 13px;
+	margin-bottom: 15px;
+	padding: 14px 4px;
+}
+#ai1ec-support .ai1ec-download .ai1ec-download-btn div {
+	font-size: 18px;
+	padding: 4px 0;
+}
+#ai1ec-support .ai1ec-download > div > div {
+	background: #fff;
+	border: 1px solid #ddd;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	padding: 8px;
+}
+#ai1ec-support .ai1ec-download ul {
+	margin: 0 0 6px 15px;
+	text-indent: 0;
+}
+#ai1ec-support .ai1ec-download ul a {
+	cursor: help;
+}
+#ai1ec-support .ai1ec-download ul a i {
+	width: 0.9em;
+}
+#ai1ec-support .ai1ec-get-support {
+	display: block;
+	margin: -3px 0 0;
+	padding: 4px 13px;
+	text-align: left;
+}
+#ai1ec-support .ai1ec-get-support .ai1ec-hover {
+	display: none;
+}
+#ai1ec-support .ai1ec-get-support:hover .ai1ec-normal {
+	display: none;
+}
+#ai1ec-support .ai1ec-get-support:hover .ai1ec-hover {
+	display: inline;
+}
+
+#ai1ec-support .ai1ec-news h2 small {
+	font-family: sans-serif;
+	font-size: 0.8em;
+	margin-left: 0.3em;
+}
+#ai1ec-support .ai1ec-news article {
+	border-bottom: 1px solid #e0e0e0;
+	margin-bottom: 7px;
+	padding-bottom: 5px;
+}
+#ai1ec-support .ai1ec-news article:first-child {
+	border-top: 1px solid #e0e0e0;
+	padding-top: 5px;
+}
+#ai1ec-support .ai1ec-news article div {
+	font-size: 0.9em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+/* General settings */
+
+.ai1ec-boxed-tabs > .tab-pane.active ~ .ai1ec-tab-pane-not-loaded {
+	display: none;
+}
+
+.ai1ec-admin-view-settings {
+	margin: 0 0 0.75em;
+}
+.ai1ec-admin-view-settings label {
+	width: 144px;
+}
+.ai1ec-admin-view-settings table {
+	width: 200px;
+}
+.ai1ec-admin-view-settings td:first-child {
+	text-align: right;
+}
+.ai1ec-control-table-column {
+	padding-left: 15px;
+}
+
+.timely .ai1ec-default-filters select {
+	width: 160px;
+	margin-right: 10px;
+}
+.timely .ai1ec-default-filters .help-block {
+	font-size: 0.85em;
+	line-height: 1.4em;
+	margin-bottom: 0;
+}
+#ai1ec-general-settings .ai1ec-default-filters div label {
+	float: none;
+	clear: none;
+}
+
+#exact_date {
+	background: no-repeat url(../img/date-field-icon.png) 95% 40%;
+	width: 110px;
+}
+
+#ai1ec-embedding-trigger:hover {
+	text-decoration: none;
+}
+#ai1ec-embedding .alert:last-child {
+	margin-bottom: 0;
+}
+
+/* ICS Feeds */
+
+.ai1ec_feed_h4 {
+	margin-bottom: 5px;
+}
+#ai1ec_feed_url,
+.timely .ai1ec-feed-url {
+	width: 100%;
+}
+#ai1ec-feeds-after .ai1ec-feed-category,
+#ai1ec-feeds-after .ai1ec-feed-tags {
+	margin-right: 0.5em;
+}
+.ai1ec-feed-category,
+.ai1ec-feed-tags,
+.ai1ec-feed-comments-enabled,
+.ai1ec-feed-map-display-enabled {
+	float: left;
+	overflow: hidden;
+	line-height: 1.5em;
+}
+.ai1ec-feed-comments-enabled,
+.ai1ec-feed-map-display-enabled {
+	margin-right: 0.5em;
+}
+.ai1ec-feed-category strong,
+.ai1ec-feed-tags strong {
+	margin: 0 0.5em 0 0;
+}
+#ai1ec_feed_category,
+#ai1ec_feed_tags {
+	width: 15em;
+}
+.ai1ec-feed-container {
+	background: #eee;
+	border: 1px solid #ddd;
+	padding: 0.3em 0.5em;
+	border-radius: 0.5em;
+	-moz-border-radius: 0.5em;
+	-webkit-border-radius: 0.5em;
+	overflow: hidden;
+	position: relative;
+	margin: 1em 0 0;
+}
+.ai1ec-feed-container .ajax-loading {
+	clear: left;
+	display: block;
+}
+.ai1ec_feed_h4 {
+	margin: 0.5em 0;
+}
+#ai1ec_add_new_ics, .ai1ec_delete_ics {
+	clear: left;
+}
+#ai1ec_add_new_ics, .ai1ec_delete_ics, .ai1ec_update_ics, .ai1ec_flush_ics {
+	float: right;
+}
+
+/* Calendar theme options */
+
+#ai1ec-less-variables-tabs {
+	background: #fff;
+}
+#ai1ec-less-variables-tabs .inside {
+	margin: 10px 0;
+}
+#ai1ec-less-variables-tabs .form-horizontal .control-label {
+	width: 180px;
+}
+#ai1ec-less-variables-tabs .form-horizontal .controls {
+	margin-left: 200px;
+}
+.ai1ec_event_page_all-in-one-event-calendar-edit-css #poststuff,
+.ai1ec_event_page_all-in-one-event-calendar-edit-css .metabox-holder {
+	padding-top: 0;
+}
+
+#ai1ec-reset-variables {
+	margin-left: 4px;
+}
+
+#ai1ec-blog-feed-container article {
+	margin: 8px 0;
+}
+#ai1ec-blog-feed-container header {
+	display: inline;
+}
