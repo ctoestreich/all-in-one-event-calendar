@@ -1,11 +1,11 @@
 # All-in-One Event Calendar
 
 Contributors: uchu, calvinyeh, elirenato, hubrik, vtowel, yani.iliev, nicolapeluchetti, jbutkus, lpawlik, bangelov 
-Tags: calendar, events, ics, ics feed, wordpress ical importer, google calendar, ical, iCalendar, all-in-one, events sync, events widget, calendar widget 
-Requires WordPress at least: 3.5
-Tested up to: 4.5
-Stable tag: 2.5.0
-License: GNU General Public License, version 3 (GPL-3.0)
+Tags: calendar, events, ics, ics feed, wordpress ical importer, google calendar, ical, iCalendar, all-in-one, events sync, events widget, calendar widget<br>
+Requires WordPress at least: 3.5<br>
+Tested up to: 4.5<br>
+Stable tag: 2.5.0<br>
+License: GNU General Public License, version 3 (GPL-3.0)<br>
 
 A calendar system with many views, upcoming events widget, color-coded categories, recurrence, and import/export of .ics feeds.
 
